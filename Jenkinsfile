@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh 'g++ main/hello.cpp'
         echo 'Build Stage Successful'
-      }
+      
     }
     
     stage('Test') {
